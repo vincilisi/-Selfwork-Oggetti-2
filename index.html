@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Rubrica</h1>
+
+    <input id="nomeSingolo" placeholder="Nome per ricerca">
+    <button onclick="mostraContattoSingolo()">Mostra contatto</button>
+    <br>
+    <input id="nomeElimina" placeholder="Nome da eliminare">
+    <button onclick="eliminaContatto()">Elimina contatto</button>
+    <br>
+    <input id="nomeAggiungi" placeholder="Nome da aggiungere">
+    <input id="telAggiungi" placeholder="Telefono da aggiungere">
+    <button onclick="aggiungiContatto()">Aggiungi contatto</button>
+    <br>
+    <input id="nomeModifica" placeholder="Nome da modificare">
+    <input id="telModifica" placeholder="Nuovo telefono">
+    <button onclick="modificaContatto()">Modifica contatto</button>
+    <br>
+    <button onclick="rubrica.mostraTuttiContatti()">Mostra tutti i contatti</button>
+
+    <div id="output"></div>
+    <script src="main.js"></script>
+</body>
+</html>
